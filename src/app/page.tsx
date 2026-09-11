@@ -1,11 +1,7 @@
-import TrackingMap from "@/components/TrackingMap";
+import React from 'react'
 
-
-
-export default function Page() {
+export default function page() {
   return (
-    <main className="w-full">
-      <TrackingMap />
-    </main>
-  );
+    <div>page</div>
+  )
 }
